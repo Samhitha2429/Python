@@ -2,3 +2,34 @@
     font-size:4vh;
     color:blue;
 }
+.name {
+    width: 50vw;
+    box-shadow: 10px 10px 15px;
+    border-radius: 2vh;
+    text-align: middle;
+    background-color: aquamarine;
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid;
+}
+.normal-text{
+   width:fit-content;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+   font-size: 3vh;
+   display:flex;
+   flex-direction:row;
+}
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.red-box{
+    height: 5vh;
+    width:5vw;
+    background-color: blue;
+    color: blanchedalmond;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
