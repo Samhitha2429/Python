@@ -1,0 +1,20 @@
+.grid-contanier{
+    height:30vh;
+    width:40vw;
+    margin:2vh;
+    box-shadow: 0 0 10px rgb(234, 117, 117);
+    display: gird;
+    grid-template-columns: 1fr 1.2fr 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    background-color: aqua;
+    border-radius: 2vh;
+}
+.sam{
+    height:5vh;
+    width:5vh;
+    margin:auto;
+}
+.par{
+    font-family: 'Poppins', sans-serif;
+    
+}

@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS `Marks`;
+CREATE DATABASE `Marks`; 
+USE `Marks`;
+SET NAMES utf8 ;
+SET character_set_client = utf8mb4 ;
+CREATE TABLE `Scores` (
+  `Id` tinyint(4) NOT NULL AUTO_INCREMENT,
+  `Score` float(7,4) NOT NULL,
+    PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+INSERT INTO `Scores` VALUES (1,3.50);
+INSERT INTO `Scores` VALUES (2,3.65);
+INSERT INTO `Scores` VALUES (3,4.00);
+INSERT INTO `Scores` VALUES (4,3.85);
+INSERT INTO `Scores` VALUES (5,4.00);
+INSERT INTO `Scores` VALUES (6,3.65);
