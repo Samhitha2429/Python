@@ -1,0 +1,23 @@
+.AllOrderCard-Container {
+    display: flex;
+    flex-direction: column;
+    border: 0.1vh solid rgb(89, 168, 230);
+    width: 40vw;
+    margin: auto;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh
+}
+
+.AllOrderCard-button {
+    border: 0.1vh solid rgb(51, 158, 80);
+    border-radius: 1vw;
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4cf44;
+}
